@@ -11,7 +11,7 @@
 #   None
 #
 # Author:
-#   Matthew Finlayson <matt@unsure.org> (http://www.jivesoftware.com)
+#   Matthew Finlayson <matt@unsure.org> (http://www.unsure.org)
 
 module.exports = (robot) ->
   robot.hear /mickov/i, (msg) ->
@@ -19,6 +19,6 @@ module.exports = (robot) ->
       .get() (err, res, body) ->
         try
           json = JSON.parse(body)
-          msg.send "#{json.sentence[0]}
+          msg.send "#{json.sentences}"
         catch error
           msg.send "Something went sideways. I blame Seth."
