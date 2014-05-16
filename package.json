@@ -1,0 +1,19 @@
+{
+	"name": "hubot-mickov",
+	"version": "0.0.1",
+	"description": "Responds with James Mickens Markov Chain Generated Sentences",
+	"keywords": [
+		"hubot"
+	],
+	"author": "Matthew Finlayson <matt@unsure.org> (http://www.unsure.org)",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/savagegus/hubot-mickov"
+	},
+	"license": "Apache 2.0",
+	"readmeFilename": "README.md",
+	"main": "index.coffee",
+	"dependencies": {
+		"hubot": ">= 2.4.0"
+	}
+}
